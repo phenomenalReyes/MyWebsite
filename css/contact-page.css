@@ -1,0 +1,18 @@
+/** contact Form Styles **/
+.form-container{
+    width: 50%;
+    margin:0 auto;
+    padding: 15px 0px;
+}
+/** End contact form styles **/
+
+/** Start map container style **/
+.map-container {
+    heigth: 450px;
+}
+/** End map container style **/
+
+footer {
+    margin-top: 0px;
+}
+>

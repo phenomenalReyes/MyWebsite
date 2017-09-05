@@ -1,0 +1,200 @@
+.body {
+    margin: 0;
+}
+
+.main-nav {
+    height: 75px;
+    background-color: #7fff00:
+}
+
+.logo {
+    height: 100%;
+}
+
+.nav-list {
+    float: right;
+    list-style: none;
+    margin-top: 25px;
+}
+
+.nav-item {
+    float: left;
+    margin-right: 15px;
+}
+
+.nav-link {
+    text-decoration: none;
+    font-size: 18px;
+    color: magenta;
+}
+
+.nav-link:hover {
+    color: gold;
+    font-size: 24px;
+    text-decoration: overline;
+}
+
+.hero-background {
+    height: 500px;
+    background-image: url('../images/10-Legend-of-Zelda-3D-Models.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.hero-header {
+    color: #fff;
+    margin-top: 0;
+    text-align: center;
+    padding-top: 230px;
+}
+
+
+.text-background {
+    background: rgba(0, 0, 0, .25);
+    padding: 15px;
+}
+
+/** start Container **/
+.container {
+    margin: 25px auto;
+}
+    
+    .container:after {
+        content:"";
+        display: block;
+        clear: both;
+    }
+    
+    .column {
+        width: 25%;
+        float: left;
+        border: 1px solid #707070;
+        text-align: center;
+        padding: 2.5%
+        margin-left: 2.5%;
+    }
+    
+    
+    .column-image {
+        width: 100%;
+        height: 150px;
+    }
+    
+    .column-header {
+        
+    }
+    
+    .column-text: {
+        
+    }
+    
+    /** end of column styles**/
+    
+    /** Start character section styles **/
+    .character-container:after {
+        content: "";
+        display: block;
+        clear: block;
+    }
+    
+    
+    .character-column {
+        width: clac(100%/3);
+        float: left;
+    }
+    
+    .circle {
+        width: 300px;
+        height: 300px;
+        border-radius: 50%;
+        border: 1px solid rgba (#0, 0, 0, .15);
+        background: url('../images/toad.jpg');
+        background-size: 85%;
+        background-position: center center;
+    }
+    
+      .square {
+        width: 300px;
+        height: 300px;
+        border: 1px solid #000;
+        background: url('../images/toad.jpg') center center no-repeat;
+        background-size: 90%;
+        margin: 0 auto;/
+    }
+
+
+	.star-container {
+  height: 250px;
+  width: 250px;
+  float: left;
+  background: url('../images/mario2.jpg') #000 center center no-repeat;
+  background-size: cover;
+  margin: 0 auto;
+ -webkit-clip-path: polygon(50% 0%, 63% 33%, 98% 35%, 71% 57%, 79% 91%, 50% 70%, 21% 91%, 30% 57%, 2% 35%, 38% 33%);
+  clip-path: polygon(50% 0%, 63% 33%, 98% 35%, 71% 57%, 79% 91%, 50% 70%, 21% 91%, 30% 57%, 2% 35%, 38% 33%);
+}
+    
+    .diamond-container {
+  height: 300px;
+  width: 300px;
+  background: url('../images/mario2.jpg') #000 left center no-repeat;
+  background-size: contain;
+  margin: 0 auto;
+  -webkit-clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+  clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+}
+
+/** End character styles **/
+    
+    footer {
+        width: 100px;
+        height: 200px;
+        margin-top: 15px;
+        padding: 15px;
+        border-top: 1px solid #707070;
+    }
+    
+    .footer-section {
+        width: calc(100%/3)
+        float: left;
+        text-align: center;
+        margin: 0 auto;
+    }
+    
+    .social-media-container {
+        width: 150px;
+        margin: 0 auto;
+    }
+    
+    .section {
+        width: 100%;
+    }
+    
+    .section:after {
+        content: "";
+        display: block;
+        clear: both;
+    }
+    
+    .icon-container {
+        height: 50px;
+        width: 50px;
+        text-align: center;
+        margin: 0 auto;
+    }
+    
+    
+    .left {
+        float: right;
+    }
+    
+    .right {
+        float: ;
+    }
+    
+    .social-media-link {
+        text-decoration: none;
+        font-size: 18px;
+        color: purple;
+    }
+    

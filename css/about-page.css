@@ -1,0 +1,57 @@
+/** Start Bio Column Styles **/
+.about-container{
+    height: 400px;
+}
+    .bio-sectiuon {
+        width: 50%;
+        float: left;
+        height: 80%;
+    }
+    
+    .bio-section {
+        width: 50%;
+        float: left;
+        height: 80%;
+    }
+    
+    .selfie {
+        width: 10%;
+        height: 10px;
+    }
+    .footer {
+        margin: 0;
+    }
+    /** End Bio Column Styles **/
+    
+    /** Begin Interest Styles **/
+    
+    .interest-section:before {
+        content: "";
+        display: block;
+        clear: both;
+    }
+    
+    
+    .interest-column {
+        width: 25%;
+        height: 100%;
+        float: right;
+        padding: 2.5;
+        margin-left: 2.5%;
+        text-align: center;
+    }
+    
+    .Intreast-picture {
+        width: 10%;
+        height: 30px;
+    }
+    
+    
+    /** End Interest Styles **/
+    
+    
+    footer {
+        margin: 0;
+    }
+    
+    
